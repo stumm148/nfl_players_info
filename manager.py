@@ -48,6 +48,6 @@ if __name__ == "__main__":
     print(df)
 
     # write players by pos to difference files
-    csv_path = 'player_no_pos_{pos}.csv'
+    csv_path = 'players_no_pos_{pos}.csv'
     for pos in ['QB', 'DB', 'WR']:
         df[df['Pos'] == pos].to_csv(csv_path.format(pos=pos), mode='w', columns=['Player', 'No'], index=False)
