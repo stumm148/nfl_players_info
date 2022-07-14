@@ -1,5 +1,5 @@
 # nfl_players_info
-gets players info from nfl.com and upload to csv file.
+Gets players info from nfl.com and upload to csv file.
 
 ## Prerequisites
 What things you need to install the software and how to install them
