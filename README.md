@@ -12,7 +12,7 @@ What things you need to install the software and how to install them
 * **pandas** - Python Data Analysis Library;
 * **beautfulsoup4** - Library for pulling data out of HTML and XML files;
 * **playwright** - Cross-browser. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox.
-*   https://playwright.dev/python/docs/intro
+    https://playwright.dev/python/docs/intro
 
 With:
 ```
