@@ -9,6 +9,7 @@ def get_nfl_table(url="https://www.nfl.com/teams/new-york-jets/roster"):
         page = browser.new_page()
         page.goto(url, timeout=0)
         html = page.inner_html('table')
+        browser.close()
         return html
 
 
